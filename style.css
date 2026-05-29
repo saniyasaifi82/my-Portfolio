@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: seagreen;
+    position: fixed;
+    width: 100%;
+
+}
+
+.left {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #d1d8b1
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+   
+
+}
+
+nav ul li a:hover {
+    color: #030909;
+    font-size: 1.01rem;
+    text-decoration: underline 4px;
+    font-weight: bold;
+    text-underline-offset: 2px;
+
+}
+
+.btn {
+    background-color: #f7f8f5;
+    padding: 5px;
+    border-style: double;
+    margin: 3px;
+    border: #d1d8b1;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+nav .btn:hover {
+    background-color: rgb(31, 29, 29);
+    color: white;
+
+}
+
+.left {
+    color: rgb(6, 80, 27);
+
+}
+
+span {
+    color: #d1d8b1;
+}
+
+.green {
+    color: rgb(6, 80, 27);
+}
+
+main section .leftsection {
+    font-weight: 700;
+}
+
+.leftsection {
+    padding: 100px;
+    font-size: 60px;
+}
+
+.rightsection img {
+    width: 400px;
+    border-radius: 98px;
+    height: fit-content;
+    position: relative;
+    padding-left: 900px;
+    bottom: 500px;
+    left: 400px;
+
+}
+
+.firstsection p {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#hireme {
+    background-color: #030909;
+    color: white;
+    padding: 9px 20px 9px 20px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 20px;
+
+}
+
+#experience {
+    background-color: rgb(6, 80, 27);
+    ;
+    color: white;
+    padding: 9px 20px 9px 20px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 20px;
+
+}
+
+.secondsection {
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.secondsection .aboutme {
+    font-weight: bold;
+    color: white;
+    /* position: relative;*/
+    justify-content: center;
+    font-size: 50px;
+    padding: 200px;
+    margin-left: 900px;
+}
+
+element {
+    color: seagreen;
+}
+
+.secondsection p {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.secondsection .newexperience {
+
+    background-color: rgb(220, 231, 223);
+    color: rgb(3, 80, 36);
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.secondsection .icons-png {
+    position: absolute;
+    top: 148%;
+    left: 29%;
+    width: 15%;
+    aspect-ratio: 8/9;
+    object-fit: contain;
+
+}
+
+.secondsection .icons-new1 {
+    position: absolute;
+    top: 149%;
+    left: 20%;
+    width: 15%;
+    aspect-ratio: 8/9;
+    object-fit: contain;
+
+}
+
+.secondsection .icons-new2 {
+    position: absolute;
+    top: 159%;
+    left: 15%;
+    width: 15%;
+    aspect-ratio: 8/9;
+    object-fit: contain;
+
+}
+
+.secondsection .icons-new3 {
+    position: absolute;
+    top: 175%;
+    left: 15%;
+    width: 15%;
+    aspect-ratio: 8/9;
+    object-fit: contain;
+
+}
+
+.secondsection .icons-new4 {
+    position: absolute;
+    top: 190%;
+    left: 20%;
+    width: 15%;
+    aspect-ratio: 8/9;
+    object-fit: contain;
+
+}
+
+.secondsection .icons-new5 {
+    position: absolute;
+    top: 193%;
+    left: 31%;
+    width: 15%;
+    aspect-ratio: 8/9;
+    object-fit: contain;
+
+}
+
+.secondsection .icons-new6 {
+    position: absolute;
+    top: 175%;
+    left: 38%;
+    width: 15%;
+    aspect-ratio: 8/9;
+    object-fit: contain;
+
+}
+
+.secondsection .icons-new7 {
+    position: absolute;
+    top: 158%;
+    left: 37%;
+    width: 15%;
+    aspect-ratio: 8/9;
+    object-fit: contain;
+}
+
+.secondsection h1 {
+    color: rgb(218, 235, 226);
+    position: absolute;
+    top: 450px;
+    left: -48%;
+}
+
+h1 element {
+    color: seagreen;
+}
+
+.secondsection .newexperience:hover {
+    background-color: seagreen;
+    color: white;
+}
+
+.firstsection #hireme:hover {
+    background-color: seagreen;
+    color: white;
+}
+
+.firstsection #experience:hover {
+    background-color: white;
+    color: seagreen;
+}
+
+
+
+.contact-form h2 {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+
+.contact-form form {
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+
+
+}
+
+.contact-form form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    background-color: rgb(215, 244, 225);
+    color: black;
+    border-radius: .5rem;
+    margin: 1rem 0;
+    resize: none;
+}
+
+.contact-form .btn-last {
+    background-color: rgb(220, 231, 223);
+    color: rgb(3, 80, 36);
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.contact-form .btn-last:hover {
+    background-color: seagreen;
+    color: white;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: rgb(36, 32, 32);
+}
+
+.footer ul{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+   
+}
+.footer ul li a:hover{
+    color: seagreen;
+   
+}
+
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+    list-style: none;
+   
+}
+
+.footer .copyright{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+    
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid seagreen;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px seagreen 0 0 1;
+    transition: 0.3s ease;
+}
+
+.footer .social a:hover{
+    transform: scale(1.2) translateY(-10px);
+    color: seagreen;
+    border: 2px solid seagreen;
+}
